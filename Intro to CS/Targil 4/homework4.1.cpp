@@ -26,6 +26,7 @@ int main() {
 		if (num2 < num1) { //checking if the new number is less than the old, in which case we know off the bat it's not a sorted list
 
 			isSorted = false;
+			break;
 		}
 
 		num1 = num2; //setting num1 to the value of num2 to compare in the next loop
