@@ -6,7 +6,7 @@ Zahava Brown
 TZ: 346287956
 This program will take in 2 inputs from the user, x and n, and
 will print out the sum of a series based in x, n number of times
-Series is: X + (-1/3)X^3  + (1/5)X^5 + (-1/7)X^7 + …. +((-1)^n-1/2n-1)X^2n-1 
+Series is: X + (-1/3)X^3  + (1/5)X^5 + (-1/7)X^7 + â€¦. +((-1)^n-1/2n-1)X^2n-1 
 */
 
 int main() {
