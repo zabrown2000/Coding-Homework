@@ -38,26 +38,26 @@ Clock::Clock(int hour, int min, int sec) : m_hour(hour), m_minute(min), m_second
 		//will go through all possible error types and provide the correct error message
 		if (c == 'h') {
 			if (m_hour > 23) { 
-				cout << "Invalid time – more than 24 hours\n";
+				cout << "Invalid time â€“ more than 24 hours\n";
 			}
 			if (m_hour < 0) {
-				cout << "Invalid time – negative number of hours\n";
+				cout << "Invalid time â€“ negative number of hours\n";
 			}
 		}
 		if (c == 'm') {
 			if (m_minute > 60) {
-				cout << "Invalid time – more than 60 minutes\n";
+				cout << "Invalid time â€“ more than 60 minutes\n";
 			}
 			if (m_minute < 0) {
-				cout << "Invalid time – negative number of minutes\n";
+				cout << "Invalid time â€“ negative number of minutes\n";
 			}
 		}
 		if (c == 's') {
 			if (m_second > 60) {
-				cout << "Invalid time – more than 60 seconds\n";
+				cout << "Invalid time â€“ more than 60 seconds\n";
 			}
 			if (m_second < 0) {
-				cout << "Invalid time – negative number of seconds\n";
+				cout << "Invalid time â€“ negative number of seconds\n";
 			}
 		}
 		m_hour = m_minute = m_second = 00; //default time set to if 1 of inputed values was invalid
@@ -85,10 +85,10 @@ void Clock::setHour(int hour) {
 	}
 	catch (int x) { //now checking which error message to execute
 		if (x > 23) {
-			cout << "Invalid time – more than 24 hours\n";
+			cout << "Invalid time â€“ more than 24 hours\n";
 		}
 		if (x < 0) {
-			cout << "Invalid time – negative number of hours\n";
+			cout << "Invalid time â€“ negative number of hours\n";
 		}
 		m_hour = m_minute = m_second = 00; //default time set to if 1 of inputed values was invalid
 	}
@@ -105,10 +105,10 @@ void Clock::setMin(int min) {
 	}
 	catch (int x) { //now checking which error message to execute
 		if (x > 60) {
-			cout << "Invalid time – more than 60 minutes\n";
+			cout << "Invalid time â€“ more than 60 minutes\n";
 		}
 		if (x < 0) {
-			cout << "Invalid time – negative number of minutes\n";
+			cout << "Invalid time â€“ negative number of minutes\n";
 		}
 		m_hour = m_minute = m_second = 00; //default time set to if 1 of inputed values was invalid
 	}
@@ -126,10 +126,10 @@ void Clock::setSec(int sec) {
 	}
 	catch (int x) { //now checking which error message to execute
 		if (x > 60) {
-			cout << "Invalid time – more than 60 seconds\n";
+			cout << "Invalid time â€“ more than 60 seconds\n";
 		}
 		if (x < 0) {
-			cout << "Invalid time – negative number of seconds\n";
+			cout << "Invalid time â€“ negative number of seconds\n";
 		}
 		m_hour = m_minute = m_second = 00; //default time set to if 1 of inputed values was invalid
 	}
