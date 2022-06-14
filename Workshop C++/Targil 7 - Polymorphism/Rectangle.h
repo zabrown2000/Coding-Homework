@@ -23,8 +23,8 @@ public:
 #endif // !RECTANGLE_H
 
 
-/*•	default constructor which constructs the vertices of the rectangle (using its base class’s constructor)
-•	special attribute: square (when the 4 sides are equal). The print of such a rectangle is 
+/*â€¢	default constructor which constructs the vertices of the rectangle (using its base classâ€™s constructor)
+â€¢	special attribute: square (when the 4 sides are equal). The print of such a rectangle is 
 	Square with a side length # where # is the length of the sides.
 */
 
