@@ -39,7 +39,7 @@ public:
 
 #endif // !FAMILY_H
 
-/*a.	family id (int) – in the range 1-100 (this is the key of the record)
+/*a.	family id (int) â€“ in the range 1-100 (this is the key of the record)
 b.	last name (up to 20 chars)
 c.	number of family members
 d.	phone number (int)
