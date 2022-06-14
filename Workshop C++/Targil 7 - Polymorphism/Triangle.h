@@ -24,7 +24,7 @@ public:
 #endif // !TRIANGLE_H
 
 
-/*•	default constructor which constructs the vertices of the triangle (using its base class’s constructor)
-•	special attribute: equilateral triangle (when the 3 sides are equal). The print of such a triangle is 
+/*â€¢	default constructor which constructs the vertices of the triangle (using its base classâ€™s constructor)
+â€¢	special attribute: equilateral triangle (when the 3 sides are equal). The print of such a triangle is 
 	An equilateral triangle with a side length # where # is the length of the sides.
 */
