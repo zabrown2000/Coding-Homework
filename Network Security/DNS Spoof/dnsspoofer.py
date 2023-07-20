@@ -1,5 +1,4 @@
-#Zahava Brown - 557029367
-#Tali Cohen - 329651871
+#Note: Runs with arp spoofer
 
 from scapy.all import *
 import argparse
