@@ -1,7 +1,3 @@
-#Zahava Brown - 557029367
-#Tali Cohen - 329651871
-
-
 from scapy.all import ARP, sniff
 import time
 import os
