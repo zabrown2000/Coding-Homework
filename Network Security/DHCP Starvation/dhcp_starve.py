@@ -1,6 +1,3 @@
-#Zahava Brown - 557029367
-#Tali Cohen - 329651871
-
 import argparse
 import scapy.all as scapy
 import random
